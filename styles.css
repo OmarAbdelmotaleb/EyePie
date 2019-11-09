@@ -26,24 +26,24 @@ header span {
     font-family: "Lucida Sans Unicode";
 }
 
-ul li {
+#selectionList ul li {
     display: inline;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 90px;
+    padding-left: 90px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
 }
 
-ul li a:link {
+#selectionList ul li a:link {
     text-decoration: none;
     color: white;
 }
 
-ul li a:visited {
+#selectionList ul li a:visited {
     color: white;
 }
 
-ul li a:hover {
+#selectionList ul li a:hover {
     color: red;
 }
 
@@ -196,6 +196,17 @@ ul li a:hover {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    #selectionList ul {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #selectionList ul li {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        list-style: none;
+    }
 }
 
 
@@ -229,5 +240,17 @@ ul li a:hover {
         background-color: #44B3C2;
         height: 200px;
         display: flex;
+    }
+    #selectionList ul {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #selectionList ul li {
+        display: block;
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        list-style: none;
     }
 }
