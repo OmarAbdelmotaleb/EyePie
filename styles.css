@@ -153,21 +153,44 @@ header span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#mission {
+    margin: 50px 20px 50px 20px;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    background-color: ivory;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    box-shadow: 10px 10px 5px grey;
+    flex-direction: column;
+}
+
+#aboutUs {
+    display: flex;
+    flex-direction: row;
+}
+
 #founder {
     display: flex;
     flex-direction: column;
     width: 300px;
-    float: right;
-    margin: 15px;
+    margin: 50px;
     background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 10px 10px 5px grey;
 }
 
 #founder img {
     align-self: center;
+    padding: 5px;
 }
 
 #founder figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
 }
 
 
@@ -249,6 +272,12 @@ header span {
         padding-right: 0px;
         list-style: none;
     }
+    #aboutUs {
+        flex-direction: column;
+    }
+    #mission {
+        margin: 50px 20px;
+    }
 }
 
 
@@ -294,5 +323,11 @@ header span {
         padding-left: 0px;
         padding-right: 0px;
         list-style: none;
+    }
+    #aboutUs {
+        flex-direction: column;
+    }
+    #mission {
+        margin: 50px 20px;
     }
 }
