@@ -1,6 +1,3 @@
-/* Put your solutions to the assignment here */
-
-
 /*I pledge my Honor that I have abided by the Stevens Honor System.*/
 
 body {
@@ -32,6 +29,7 @@ header span {
     padding-left: 90px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
+	white-space: nowrap;
 }
 
 #selectionList ul li a:link {
@@ -75,7 +73,7 @@ header span {
 }
 
 .post-pic {
-    width: 200px;
+    width: 100px;
     height: auto;
     margin-right: 10px;
 }
@@ -100,7 +98,12 @@ header span {
 }
 
 .post-body {
-    height: 200px
+    height: 100px;
+    margin-left: 2.5%;
+}
+
+.post-body p {
+    font-family: "Arial";
 }
 
 .post-container {
@@ -109,15 +112,19 @@ header span {
     background-color: white;
     display: flex;
     align-items: center;
+    box-shadow: 3px 3px 6px grey;
 }
 
 #pageSelectionWrapper {
     text-align: center;
     margin: -10px;
+    background-color: #326f8c;
+
 }
 
 #selectionList {
     display: inline-block;
+    background-color: #326f8c;
 }
 
 #logoTagline {
