@@ -98,7 +98,6 @@ header span {
 }
 
 .post-body {
-    height: 100px;
     margin-left: 2.5%;
 }
 
@@ -230,17 +229,25 @@ header span {
     header {
         justify-content: center;
     }
+
     .posts {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .post {
         flex: 50%;
     }
+
     .post-pic {
-        width: 100%;
+        width: 95%;
         height: auto;
     }
+
+    .post-body p {
+        white-space: normal;
+    }
+
     .logo {
         padding: 5px;
         margin: 10px;
@@ -251,12 +258,16 @@ header span {
         border-color: white;
     }
     .post-container {
-        margin: 10px;
+        margin: 10px 5%;
         padding: 10px;
         background-color: white;
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+    #selectionList ul li {
+        display: block;
+        font-size: 30px;
     }
     .ad {
         justify-content: center;
@@ -297,19 +308,26 @@ header span {
         justify-content: center;
         text-align: center;
     }
+    div h1 {
+        margin-bottom: -10px;
+    }
+    .picText{
+        font-size: 0px;
+    }
     .logo {
         border-radius: 50%;
     }
     .posts {
         flex: auto;
         flex-direction: column;
+        /*margin: 10%;*/
     }
     .post-container {
         display: flex;
         flex-direction: column;
     }
     .post-pic {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     .ad {
@@ -337,4 +355,8 @@ header span {
     #mission {
         margin: 50px 20px;
     }
+    #tag {
+        font-size: 0px;
+    }
+
 }
