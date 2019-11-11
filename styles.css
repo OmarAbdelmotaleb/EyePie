@@ -29,7 +29,7 @@ header span {
     padding-left: 90px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
 #selectionList ul li a:link {
@@ -118,7 +118,6 @@ header span {
     text-align: center;
     margin: -10px;
     background-color: #326f8c;
-
 }
 
 #selectionList {
@@ -177,7 +176,7 @@ header span {
     flex-direction: row;
 }
 
-#founder {
+.founder {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -189,12 +188,12 @@ header span {
     box-shadow: 10px 10px 5px grey;
 }
 
-#founder img {
+.founder img {
     align-self: center;
     padding: 5px;
 }
 
-#founder figcaption {
+.founder figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
 }
@@ -229,25 +228,20 @@ header span {
     header {
         justify-content: center;
     }
-
     .posts {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     .post {
         flex: 50%;
     }
-
     .post-pic {
         width: 95%;
         height: auto;
     }
-
     .post-body p {
         white-space: normal;
     }
-
     .logo {
         padding: 5px;
         margin: 10px;
@@ -311,7 +305,7 @@ header span {
     div h1 {
         margin-bottom: -10px;
     }
-    .picText{
+    .picText {
         font-size: 0px;
     }
     .logo {
@@ -358,5 +352,4 @@ header span {
     #tag {
         font-size: 0px;
     }
-
 }
