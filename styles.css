@@ -73,8 +73,8 @@ header span {
 }
 
 .ad-pic {
-    width: 100px;
-    height: auto;
+    width: 300px;
+    height: 300px;
     margin-right: 10px;
 }
 
@@ -199,17 +199,14 @@ header span {
 }
 
 #Orders {
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .OrderItem {
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -222,44 +219,32 @@ header span {
     background-color: white;
     border: 5px solid black;
     font-size: 30px;
-
 }
 
 #OrderPizza {
-
     background-color: yellow;
-
 }
 
-#OrderPizza:active{
-
+#OrderPizza:active {
     background-color: red;
-
 }
 
 #OrderSalad {
-
     background-color: green;
-
 }
 
-#OrderSalad:active{
-
+#OrderSalad:active {
     background-color: red;
-
 }
 
 #OrderSide {
-
     background-color: lightblue;
-
 }
 
-#OrderSide:active{
-
+#OrderSide:active {
     background-color: red;
-
 }
+
 
 /*DESKTOP*/
 
@@ -298,8 +283,8 @@ header span {
         flex: 50%;
     }
     .ad-pic {
-        width: 95%;
-        height: auto;
+        width: 200px;
+        height: 200px;
     }
     .ad-body p {
         white-space: normal;
@@ -376,15 +361,15 @@ header span {
     .ads {
         flex: auto;
         flex-direction: column;
-        /*margin: 10%;*/
+        margin: 10%;
     }
     .ad-container {
         display: flex;
         flex-direction: column;
     }
     .ad-pic {
-        width: 90%;
-        height: auto;
+        width: 200px;
+        height: 200px;
     }
     .ad {
         margin: 10px;
