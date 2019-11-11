@@ -45,7 +45,7 @@ header span {
     color: red;
 }
 
-.ad {
+.pizzaAd {
     margin: 50px 20%;
     padding: 10px;
     background-color: #44B3C2;
@@ -72,7 +72,7 @@ header span {
     color: white;
 }
 
-.post-pic {
+.ad-pic {
     width: 100px;
     height: auto;
     margin-right: 10px;
@@ -88,24 +88,24 @@ header span {
     border-color: white;
 }
 
-.posts {
+.ads {
     display: flex;
     flex-wrap: wrap;
 }
 
-.post {
+.ad {
     flex: auto;
 }
 
-.post-body {
+.ad-body {
     margin-left: 2.5%;
 }
 
-.post-body p {
+.ad-body p {
     font-family: "Arial";
 }
 
-.post-container {
+.ad-container {
     margin: 10px;
     padding: 10px;
     background-color: white;
@@ -202,19 +202,19 @@ header span {
 /*DESKTOP*/
 
 @media screen and (min-width: 999px) {
-    .posts {
+    .ads {
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
         /*flex-direction: column;*/
         align-items: center;
     }
-    .post {
+    .ad {
         max-width: 800px;
         width: 800px;
         flex: auto;
     }
-    /*.post-pic {
+    /*.ad-pic {
 		height: 200px;
 		width: 200px;
 		margin-right: 10px;
@@ -228,18 +228,18 @@ header span {
     header {
         justify-content: center;
     }
-    .posts {
+    .ads {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .post {
+    .ad {
         flex: 50%;
     }
-    .post-pic {
+    .ad-pic {
         width: 95%;
         height: auto;
     }
-    .post-body p {
+    .ad-body p {
         white-space: normal;
     }
     .logo {
@@ -251,7 +251,7 @@ header span {
         border-style: solid;
         border-color: white;
     }
-    .post-container {
+    .ad-container {
         margin: 10px 5%;
         padding: 10px;
         background-color: white;
@@ -311,16 +311,16 @@ header span {
     .logo {
         border-radius: 50%;
     }
-    .posts {
+    .ads {
         flex: auto;
         flex-direction: column;
         /*margin: 10%;*/
     }
-    .post-container {
+    .ad-container {
         display: flex;
         flex-direction: column;
     }
-    .post-pic {
+    .ad-pic {
         width: 90%;
         height: auto;
     }
