@@ -221,27 +221,27 @@ header span {
     font-size: 30px;
 }
 
-#OrderPizza {
+.OrderPizza {
     background-color: yellow;
 }
 
-#OrderPizza:active {
+.OrderPizza:active {
     background-color: red;
 }
 
-#OrderSalad {
+.OrderSalad {
     background-color: green;
 }
 
-#OrderSalad:active {
+.OrderSalad:active {
     background-color: red;
 }
 
-#OrderSide {
+.OrderSide {
     background-color: lightblue;
 }
 
-#OrderSide:active {
+.OrderSide:active {
     background-color: red;
 }
 
