@@ -221,6 +221,29 @@ header span {
     font-size: 30px;
 }
 
+#PlaceOrder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#OrderButton {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: 5px solid black;
+    font-size: 30px;
+}
+
 .OrderPizza {
     background-color: yellow;
 }
@@ -243,6 +266,22 @@ header span {
 
 .OrderSide:active {
     background-color: red;
+}
+
+.commentBox {
+    background-color: grey;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    color: rgb(233, 233, 216);
+}
+
+.commentName {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.commentTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 

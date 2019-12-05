@@ -2,6 +2,10 @@
 
 document.getElementById("commentForm").addEventListener("submit", pressSubmit);
 
+//test comment
+createComment("David Treder", "Title thing", "this is my comment");
+createComment("David Treder", "Title thing", "this is my comment");
+
 function pressSubmit() {
     event.preventDefault();
     var name = document.getElementById("name").value;
@@ -22,9 +26,14 @@ function createComment(name, title, comment) {
 
     var div = document.createElement("div");
     var namep = document.createElement("p");
-    var titleh1 = document.createElement("h1");
+    var titleh1 = document.createElement("h3");
     var commentp = document.createElement("p");
     var br = document.createElement("br");
+
+    div.setAttribute("class", "commentBox");
+    namep.setAttribute("class", "commentName");
+    titleh1.setAttribute("class", "commentTitle");
+    commentp.setAttribute("class", "comment");
 
     namep.textContent += "Comment by: " + name;
     titleh1.textContent += title;
