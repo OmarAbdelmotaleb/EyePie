@@ -2,9 +2,9 @@
 
 document.getElementById("commentForm").addEventListener("submit", pressSubmit);
 
-//test comment
-createComment("David Treder", "Title thing", "this is my comment");
-createComment("David Treder", "Title thing", "this is my comment");
+//test comments
+//createComment("David Treder", "Title thing", "this is my comment");
+//createComment("David Treder", "Title thing", "this is my comment");
 
 function pressSubmit() {
     event.preventDefault();
