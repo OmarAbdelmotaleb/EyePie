@@ -24,6 +24,8 @@ for (var i = 0; i < orders.length; i++) {
 //One more button David Treder
 document.getElementById("OrderButton").addEventListener("mouseover", small);
 document.getElementById("OrderButton").addEventListener("mouseleave", big);
+document.getElementById("ClearButton").addEventListener("mouseover", small);
+document.getElementById("ClearButton").addEventListener("mouseleave", big);
 
 //Order script David Treder
 
@@ -75,4 +77,12 @@ function placeOrder() {
     outputString += "For a total of $" + (totalPrice / 100);
 
     alert(outputString);
+}
+
+document.getElementById("ClearButton").addEventListener("click", clearOrder);
+
+function clearOrder() {
+    cart = [];
+    cartUSERDISPLAY = [];
+    alert("CART CLEARED")
 }

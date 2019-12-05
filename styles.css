@@ -244,6 +244,21 @@ header span {
     font-size: 30px;
 }
 
+#ClearButton {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: 5px solid black;
+    font-size: 30px;
+}
+
 .OrderPizza {
     background-color: yellow;
 }
