@@ -12,16 +12,19 @@ function pressSubmit() {
     var email = document.getElementById("email").value;
     var title = document.getElementById("title").value;
     var comment = document.getElementById("comment").value;
+    var backColor = document.getElementById("backColor").value;
+    var textColor = document.getElementById("textColor").value;
 
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("title").value = "";
     document.getElementById("comment").value = "";
-    createComment(name, title, comment);
-    sendEmail(email, name, title, comment);
+
+    createComment(name, title, comment, backColor, textColor);
+    //sendEmail(email, name, title, comment);
 }
 
-function createComment(name, title, comment) {
+function createComment(name, title, comment, backColor, textColor) {
     var commentList = document.getElementById("comments")
 
     var div = document.createElement("div");
@@ -31,6 +34,8 @@ function createComment(name, title, comment) {
     var br = document.createElement("br");
 
     div.setAttribute("class", "commentBox");
+    div.style.color = textColor;
+    div.style.backgroundColor = backColor;
     namep.setAttribute("class", "commentName");
     titleh1.setAttribute("class", "commentTitle");
     commentp.setAttribute("class", "comment");

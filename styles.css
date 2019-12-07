@@ -284,11 +284,9 @@ header span {
 }
 
 .commentBox {
-    background-color: grey;
     padding: 10px;
     border: solid;
     border-color: black;
-    color: rgb(233, 233, 216);
 }
 
 .commentName {
