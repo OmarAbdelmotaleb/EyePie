@@ -18,7 +18,7 @@ function pressSubmit() {
     document.getElementById("title").value = "";
     document.getElementById("comment").value = "";
     createComment(name, title, comment);
-    //sendEmail(email, name, title, comment);
+    sendEmail(email, name, title, comment);
 }
 
 function createComment(name, title, comment) {
