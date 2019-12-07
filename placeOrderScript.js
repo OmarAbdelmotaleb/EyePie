@@ -4,7 +4,7 @@
 orders = document.getElementsByClassName("OrderItem");
 
 function opacity0() {
-    console.log(orders[i])
+    //console.log(orders[i])
     orders[i].style.color = "green"
 }
 
@@ -58,8 +58,8 @@ for (var i = 0; i < orders.length; i++) {
 function addItem() {
     cart.push(this.id);
     cartUSERDISPLAY.push(this.textContent);
-    console.log(cart);
-    console.log(cartUSERDISPLAY);
+    //console.log(cart);
+    //console.log(cartUSERDISPLAY);
 }
 
 document.getElementById("OrderButton").addEventListener("click", placeOrder);
